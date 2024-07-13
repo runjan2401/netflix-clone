@@ -1,0 +1,656 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+     box-sizing: border-box;
+  }
+
+  html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+ }
+
+ .main{
+    height: 94vh;
+    background-image: url("IN-en-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_13cda806-d858-493e-b4aa-f2792ff965dc_large.jpg");
+    position: relative;
+    border-bottom: 10px solid grey;
+ }
+
+ .main .box{
+    height: 94vh;
+    width: 100%;
+    opacity: 0.68;
+    background-color: black;
+    position: absolute;
+    top: 0;
+ }
+
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    height: 102px;
+ }
+
+ nav img{
+   color: red;
+   width: 154px; 
+   position: relative;
+   z-index: 10;
+   margin-left: 180px;
+ }
+
+ nav button{
+    position: relative;
+    z-index: 10;
+    
+ }
+
+
+ .btn-lang{
+    padding-right: 180px;
+    display: flex;
+    gap: 12px;
+ }
+
+  #language{
+    width: 110px;
+    height:38px;
+    color: white;
+    z-index: 9;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.43);
+    background-color: rgba(0, 0, 0, 0.223);
+  }
+
+  #btn-sign{
+    width: 90px;
+    height: 34px;
+    margin-top: 1px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: 600;
+  }
+
+  #btn-sign:hover{
+   background-color: rgba(253, 19, 19, 0.848);
+  }
+
+ .hero{
+    height: 100%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    position: relative;
+ }
+
+ .hero h1{
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 53px;
+    padding-top: 150px;
+    padding-left: 15%;
+    font-weight: 800;
+ }
+
+ .hero h3{
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 26px;
+    padding-top: 10px;
+    padding-left: 37%;
+    font-weight: 500;
+ }
+
+ .hero h5{
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 18px;
+    padding-left: 29%;
+    font-weight: 80;
+ }
+ 
+ .hero1{
+    padding-top: 48px;
+    padding-left: 32%;
+    gap: 8px;
+ }
+
+ .hero1 input{
+    width: 380px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.495);
+    border: 1px solid gray;
+    padding-left: 12px;
+    font-size: 16px;
+ }
+
+ .hero1 input:hover{
+   color: white;
+ }
+
+ .hero1 button{
+    width: 180px;
+    height: 55px;
+    border-radius: 8px;
+    background-color: rgb(229, 9, 20);;
+    border: none;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 4px;
+ }
+
+ #btn-get:hover{
+   background-color: rgba(196, 37, 37, 0.911);
+ }
+
+ .section_1{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    color: white;
+    margin-top: 50px;
+    border-bottom: 8px solid rgba(128, 128, 128, 0.337);
+   }
+
+   #img-txt1{
+    margin-left: 20px;
+   }
+
+   #img-txt1 h1{
+    margin-left: 90px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin-top: 100px;
+   }
+
+   #img-txt1 h3{
+    margin-left: 90px;
+    font-size: 22px;
+    margin-top: 18px;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+   }
+
+   #img-txt1 h4{
+    font-size: 22px;
+    margin-left: 90px;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 8px;
+   }
+
+   .img_video{
+    position: relative;
+    margin-left: 100px;
+   }
+
+   .img_video .imges{
+       width: 42vw;
+       position: relative;
+       z-index: 10;
+   }
+
+   .img_video .videos{
+    position: absolute;
+    top: 80px;
+    right: 25px;
+    width: 35vw;
+   }
+
+   .section_2{
+    display: flex;
+    border-bottom: 8px solid rgba(128, 128, 128, 0.337);
+   }
+
+   .section_2 img{
+    height: 58vh;
+    width: 82vh;
+    margin-left: 35px;
+    margin-bottom: 60px;
+   }
+
+   .img-txt2{
+    display: inline;
+   }
+
+   .section_2 h2{
+    color: white;
+    margin-left: 90px;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin-top: 100px;
+    line-height: 55px;
+   }
+
+   .section_2 h3{
+    color: white;
+    font-size: 22px;
+    margin-left: 100px;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 26px;
+   }
+
+
+   .section_3{
+    display: flex;
+    max-width: 100%;
+    color: white;
+    border-bottom: 8px solid rgba(128, 128, 128, 0.337);
+   }
+
+   #img-txt3{
+    margin-left: 20px;
+   }
+
+   #img-txt3 h2{
+    margin-left: 80px;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin-top: 170px;
+   }
+
+
+   #img-txt3 h3{
+    color: white;
+    font-size: 22px;
+    margin-left: 80px;
+    font-family: sans-serif;
+    font-weight: 80;
+    letter-spacing: 1px;
+    margin-top: 28px;
+   }
+
+  
+
+   .img_video1{
+    position: relative;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+   }
+
+   .img_video1 .imges1{
+       width: 49vw;
+       position: relative;
+       z-index: 10;
+   }
+
+   .img_video1 .videos1{
+    position: absolute;
+    right: 130px;
+    top: 25px;
+   }
+
+   
+   .section_4{
+    display: flex;
+    border-bottom: 8px solid rgba(128, 128, 128, 0.337);
+    margin-top: 70px;
+   }
+
+   .section_4 img{
+    height: 58vh;
+    width: 82vh;
+    margin-left: 35px;
+    margin-bottom: 30px;
+   }
+
+   .img-txt4{
+    display: inline;
+    margin-top: 120px;
+   }
+
+   .section_4 h2{
+    color: white;
+    margin-left: 110px;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: sans-serif;
+    line-height: 55px;
+   }
+
+   .section_4 h3{
+    color: white;
+    font-size: 22px;
+    margin-left: 110px;
+    font-family: sans-serif;
+    font-weight: 100;
+    justify-content: center;
+    margin-top: 26px;
+   }
+
+   .fre-ask-que{
+      color: white;
+      font-size: 47px;
+      text-align: center;
+      justify-content: center;
+      font-family: sans-serif;
+      font-weight: 900;
+      margin-top: 50px;
+   }
+
+   .que-ask{
+      width: 10vh;
+      height: 100px;
+   }
+
+   #txt-one #adds{
+      margin-left: 80px;
+      padding-top: 10px;
+   }
+
+   #txt-one{
+      color: white;
+      border: 1px solid grey;
+      font-size: 23px;
+      font-family: sans-serif;
+      font-weight: 100;
+      margin-top: 40px;
+      margin-bottom: 12px;
+      width: 130vh;
+      height: 69px;
+      padding-top: 20px;
+      padding-left: 30px;
+      margin-left: 260px;
+      background-color: rgb(45, 45, 45);
+      border: none;
+      letter-spacing: 1px;
+      transition: all ease 0.8s;
+      }
+
+      #txt-one:hover{
+         background-color: rgb(65, 65, 65);
+     }
+
+    .txt-two{
+      color: white;
+      border: 1px solid grey;
+      font-size: 23px;
+      font-family: sans-serif;
+      font-weight: 100;
+      width: 130vh;
+      height: 69px;
+      padding-top: 20px;
+      padding-left: 30px;
+      margin-left: 260px;
+      margin-bottom: 12px;
+      background-color: rgb(45, 45, 45);
+      border: none;
+      letter-spacing: 1px;
+      transition: all ease 0.8s;
+    }  
+
+    .txt-two:hover{
+      background-color: rgb(65, 65, 65);
+    }
+  
+    .text-three{
+      color: white;
+      font-size: 21px;
+      font-family: sans-serif;
+      margin-top: 56vh;
+      font-weight: 50;
+      justify-content: center;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+
+    .hero11{
+      padding-top: 24px;
+      padding-left: 32%;
+      gap: 9px;
+      border-bottom: 8px solid rgba(128, 128, 128, 0.337);
+     
+   }
+  
+   .hero11 input{
+      width: 380px;
+      height: 55px;
+      border-radius: 6px;
+      background-color: rgba(0, 0, 0, 0.495);
+      border: 1px solid gray;
+      padding-left: 12px;
+      font-size: 19px;
+   }
+  
+   .hero11 input:hover{
+     color: white;
+   }
+  
+   .hero11 button{
+      width: 170px;
+      height: 55px;
+      border-radius: 8px;
+      background-color: rgb(229, 9, 20);;
+      border: none;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 4px;
+      margin-bottom: 9vh;
+   }
+  
+   #btn-get:hover{
+     background-color: rgba(196, 37, 37, 0.911);
+   }
+
+   .footer{
+       margin-bottom: 50vh;
+   }
+
+   .colums{
+      display: flex; 
+   }
+
+   #number-txt{
+      display: inline;
+      list-style: none;
+   }
+
+   #txt-num{
+      color: rgba(197, 189, 189, 0.849);
+      font-size: 20px;
+      margin-top: 70px;
+      margin-left: 120px;
+      cursor: pointer;
+   }
+
+   #txt-faq{
+      color: rgba(197, 189, 189, 0.849);
+      font-size: 18px;
+      margin-top: 39px;
+      margin-left: 120px;
+      text-decoration: underline;
+      cursor: pointer;
+   }
+
+   #txt-investor{
+      color: rgba(197, 189, 189, 0.849);
+      font-size: 18px;
+      margin-top: 20px;
+      margin-left: 120px;
+      text-decoration: underline;
+      cursor: pointer;
+   }
+
+   #txt-privacy{
+      color: rgba(197, 189, 189, 0.849);
+      font-size: 18px;
+      margin-top: 20px;
+      margin-left: 120px;
+      text-decoration: underline;
+      cursor: pointer;
+   }
+
+   #txt-speed{
+      color: rgba(197, 189, 189, 0.849);
+      font-size: 18px;
+      margin-top: 20px;
+      margin-left: 120px;
+      text-decoration: underline;
+      cursor: pointer;
+   }
+   
+
+   #lang-english{
+      width: 110px;
+      height:38px;
+      color: white;
+      z-index: 9;
+      font-size: 17px;
+      text-align: center;
+      padding-top: 7px;
+      border-radius: 7px;
+      background-color: rgba(0, 0, 0, 0.223);
+      border: 1px solid rgba(255, 255, 255, 0.43);
+      margin-left: 116px;
+      margin-top: 16px;
+      cursor: pointer;
+    }
+
+    #net-india{
+      color: rgba(197, 189, 189, 0.849);
+      font-size: 16px;
+      margin-top: 17px;
+      margin-left: 120px;
+      margin-bottom: 10vh;
+      cursor: pointer;
+    }
+
+    #help-area{
+      display: inline;
+      list-style: none;
+    }
+
+    #help{
+      color: rgba(197, 189, 189, 0.849);
+      font-size: 18px;
+      margin-top: 135px;
+      margin-left: 100px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    #jobs{
+      color: rgba(197, 189, 189, 0.849);
+      font-size: 18px;
+      margin-top: 17px;
+      margin-left: 100px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    #cookie{
+      color: rgba(197, 189, 189, 0.849);
+      font-size: 18px;
+      margin-top: 17px;
+      margin-left: 100px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    #legal{
+      color: rgba(197, 189, 189, 0.849);
+      font-size: 18px;
+      margin-top: 17px;
+      margin-left: 100px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    #account-area{
+      display: inline;
+      list-style: none;
+      margin-left: 105px;
+    }
+
+    #account{
+      color: rgba(197, 189, 189, 0.849);
+      font-size: 18px;
+      margin-top: 135px;
+      margin-left: 100px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    #ways-txt{
+      color: rgba(197, 189, 189, 0.849);
+      font-size: 18px;
+      margin-top: 17px;
+      margin-left: 100px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    #corporate{
+      color: rgba(197, 189, 189, 0.849);
+      font-size: 18px;
+      margin-top: 17px;
+      margin-left: 100px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    #netflix-only{
+      color: rgba(197, 189, 189, 0.849);
+      font-size: 18px;
+      margin-top: 17px;
+      margin-left: 100px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    #terms-condition{
+      display: inline;
+      list-style: none;
+      margin-left: 100px;
+    }
+
+    #media{
+      color: rgba(197, 189, 189, 0.849);
+      font-size: 18px;
+      margin-top: 135px;
+      margin-left: 100px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    #terms{
+      color: rgba(197, 189, 189, 0.849);
+      font-size: 18px;
+      margin-top: 17px;
+      margin-left: 100px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    #contact{
+      color: rgba(197, 189, 189, 0.849);
+      font-size: 18px;
+      margin-top: 17px;
+      margin-left: 100px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  
